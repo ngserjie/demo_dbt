@@ -1,0 +1,13 @@
+demo_dbt_2:
+  outputs:
+    dev:
+      account: uwvphrd-zi43029
+      database: DEMO_DBT
+      password: Ilovecookie1!
+      role: ACCOUNTADMIN
+      schema: PUBLIC
+      threads: 10
+      type: snowflake
+      user: NGSERJIE
+      warehouse: COMPUTE_WH
+  target: dev
